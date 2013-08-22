@@ -1,0 +1,1 @@
+<img src="<?php echo $absolutePath; ?>../app/images/ajax-loader.gif" alt="Loading" />

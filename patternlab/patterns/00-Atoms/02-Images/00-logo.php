@@ -1,0 +1,1 @@
+<a href="#"><img src="<?php echo $absolutePath; ?>../app/images/logo.png" class="logo" alt="Logo" /></a>
