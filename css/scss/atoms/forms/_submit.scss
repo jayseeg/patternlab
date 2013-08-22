@@ -1,0 +1,11 @@
+/*------------------------------------*\
+	$SUBMIT ELEMENTS
+\*------------------------------------*/
+
+button, input[type="submit"] {
+	padding: $pad-half;
+	background: $gray-dark;
+	border: 1px solid $gray;
+	cursor: pointer;
+	text-transform: uppercase;
+}

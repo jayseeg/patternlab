@@ -1,0 +1,38 @@
+/*------------------------------------*\
+	$BLOCK-THUMB-HEADLINE ELEMENTS
+\*------------------------------------*/
+
+.block-thumb {
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+
+	.b-inner {
+		display: table-row;
+		vertical-align: top;
+  		overflow: hidden;
+	}
+
+	.b-thumb {
+		@media all and (min-width: $bp-small-2) {
+			display: table-cell;
+			vertical-align: top;
+	  		width: 30%;
+	  		max-width: 10em;
+
+	 		img {
+	 			display: block;
+				  width: 100%;
+				  height: auto;
+	 		}
+ 		}
+	}
+
+	.b-text {
+		@media all and (min-width: $bp-small-2) {
+			display: table-cell;
+			width: 70%;
+			padding: 0 $pad;
+		}
+	}
+}

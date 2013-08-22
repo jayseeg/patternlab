@@ -1,0 +1,13 @@
+/*------------------------------------*\
+	$LOGO ELEMENTS
+\*------------------------------------*/
+
+.logo {
+	float: left;
+	max-width: 8rem;
+	margin: 0.4rem;
+
+	@media all and (min-width: $bp-med) {
+		max-width: 9rem;
+	}
+}

@@ -1,0 +1,15 @@
+/*------------------------------------*\
+	$GRID-ITEM ELEMENTS
+\*------------------------------------*/
+
+.gi {
+	padding: $pad-half;
+
+	img {
+		display: block;
+	}
+
+	@media all and (min-width: $bp-med) {
+		float: left;
+	}
+}

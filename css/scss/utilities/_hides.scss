@@ -1,0 +1,22 @@
+/*------------------------------------*\
+	$HIDES CLASSES
+\*------------------------------------*/
+
+/* Display Classes */
+.hide-small {
+	@media all and (max-width: $bp-med) {
+		display: none;
+	}
+}
+
+.hide-med {
+	@media all and (min-width: $bp-med) and (max-width: $bp-large) {
+		display: none;
+	}
+}
+
+.hide-large {
+	@media all and (min-width: $bp-large) {
+		display: none;
+	}
+}

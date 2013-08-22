@@ -1,91 +1,54 @@
 /*------------------------------------*\
-    $TABLE OF CONTENTS
+	$UTILITY ELEMENTS
 \*------------------------------------*/
-/**
- * VARIABLES..............................Declarations of Sass variables 
- * .....Colors
- * .....Typography
- * .....Layout
- * .....Defaults
- * .....Breakpoints
- * MIXINS.................................Sass mixins 
- * RESET..................................Set reset defaults
- * GLOBAL CLASSES.........................Set reset defaults
- * GLOBAL ELEMENTS........................Establish global styles
- * .....Main
- * .....Headings
- * .....Text-related elements (p, blockquote, lists)
- * .....Defaults
- * .....Breakpoints
- * TYPOGRAPHY------------------------------
- * MEDIA------------------------------
- * LAYOUT------------------------------
- * NAVIGATION------------------------------
- * TOC To Be Continued
- */
-
-
-
-@import "scss/generic/variables";
-@import "scss/generic/mixins";
-@import "scss/generic/reset";
-
-
-
-
+@import "scss/utilities/variables";
+@import "scss/utilities/mixins";
+@import "scss/utilities/reset";
+@import "scss/utilities/fonts";
+@import "scss/utilities/clearfix";
+@import "scss/utilities/floats";
+@import "scss/utilities/hidden";
+@import "scss/utilities/hides";
+@import "scss/utilities/text-aligns";
+@import "scss/utilities/animation";
+@import "scss/utilities/validation";
 
 /*------------------------------------*\
-    $GLOBAL ELEMENTS
+	$ATOM ELEMENTS
 \*------------------------------------*/
-@import "scss/base/global-classes";
-@import "scss/base/main";
-@import "scss/base/links";
-@import "scss/base/headings";
-@import "scss/base/text";
-@import "scss/base/lists";
-@import "scss/base/media";
-@import "scss/base/forms";
-@import "scss/base/tables";
-@import "scss/base/animation";
-
-
-
-
+@import "scss/atoms/body";
+@import "scss/atoms/text";
+@import "scss/atoms/buttons";
+@import "scss/atoms/forms";
+@import "scss/atoms/horizontal-rule";
+@import "scss/atoms/lists";
+@import "scss/atoms/tables";
+@import "scss/atoms/media";
 
 /*------------------------------------*\
-    $LAYOUT
+	$MOLECULE ELEMENTS
 \*------------------------------------*/
-@import "scss/objects/layout";
-
+@import "scss/molecules/main-content";
+@import "scss/molecules/blocks";
+@import "scss/molecules/text";
+@import "scss/molecules/icons";
+@import "scss/molecules/forms";
+@import "scss/molecules/lists";
+@import "scss/molecules/nav";
+@import "scss/molecules/nav-toggle";
+@import "scss/molecules/widgets";
+@import "scss/molecules/logo";
+@import "scss/molecules/grids";
+@import "scss/molecules/layouts";
 
 /*------------------------------------*\
-    $PAGE STRUCTURE
+	$ORGANISM ELEMENTS
 \*------------------------------------*/
-@import "scss/objects/header";
-@import "scss/objects/nav";
-@import "scss/objects/main";
-@import "scss/objects/footer";
-
-
+@import "scss/organisms/article";
+@import "scss/organisms/footer";
+@import "scss/organisms/header";
+@import "scss/organisms/sections";
 
 /*------------------------------------*\
-    $TEXT Styles
+	$TEMPLATE STRUCTURE
 \*------------------------------------*/
-@import "scss/objects/text";
-
-
-/*------------------------------------*\
-    $COMPONENTS
-\*------------------------------------*/
-@import "scss/objects/icons";
-@import "scss/objects/buttons";
-@import "scss/objects/blocks";
-@import "scss/objects/lists";
-@import "scss/objects/tooltip";
-@import "scss/objects/accordion";
-@import "scss/objects/tabs";
-@import "scss/objects/sections";
-@import "scss/objects/article";
-@import "scss/objects/comments";
-
-

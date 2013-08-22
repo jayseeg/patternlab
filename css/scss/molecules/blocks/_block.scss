@@ -1,0 +1,11 @@
+/*------------------------------------*\
+	$BLOCK ELEMENTS
+\*------------------------------------*/
+
+.block {
+	overflow: hidden;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}

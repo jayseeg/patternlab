@@ -1,0 +1,15 @@
+/*------------------------------------*\
+	$BLOCK-THUMB-SUMMARY ELEMENTS
+\*------------------------------------*/
+
+.block-thumb-summary {
+	.b-thumb {
+		float: left;
+		width: 50%;
+	}
+
+	.b-text {
+		margin-left: 50%;
+		padding: $pad-half;
+	}
+}

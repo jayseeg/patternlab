@@ -1,0 +1,17 @@
+/*------------------------------------*\
+	$TEXT-INPUT ELEMENTS
+\*------------------------------------*/
+
+input, textarea {
+	width: 100%;
+	border: 1px solid $gray;
+	padding: $pad-half 0.65rem;
+}
+
+input[type=text],
+input[type=search],
+input[type=url],
+input[type=number],
+textarea {
+	-webkit-appearance: none;
+}

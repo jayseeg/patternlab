@@ -1,0 +1,22 @@
+/*------------------------------------*\
+	$VALIDATION CLASSES
+\*------------------------------------*/
+
+.valid {
+	color: $valid;
+}
+
+.error {
+	color: $error;
+}
+
+.info {
+
+}
+
+.is-valid {
+	border-color: $valid;
+}
+.has-error {
+	border-color: $error;
+}

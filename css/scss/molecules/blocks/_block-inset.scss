@@ -1,0 +1,17 @@
+/*------------------------------------*\
+	$BLOCK-INSET ELEMENTS
+\*------------------------------------*/
+
+.block-inset {
+	position: relative;
+
+	.b-thumb {
+		position: relative;
+		z-index: 0;
+
+		img {
+			display: block;
+			margin-bottom: $space-half;
+		}
+	}
+}

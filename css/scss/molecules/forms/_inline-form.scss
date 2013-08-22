@@ -1,0 +1,26 @@
+/*------------------------------------*\
+	$INLINE-FORM ELEMENTS
+\*------------------------------------*/
+
+.inline-form {
+
+	fieldset, .inline-container {
+		position: relative;
+	}
+
+	input[type=submit], button, .btn {
+		font-size: $font-size-slightly-smaller;
+		padding: 0.65rem 1.3rem;
+		background: $gray-dark;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+		width: auto;
+
+		&:hover, &:focus {
+			background: $gray;
+			color: $white;
+		}
+	}
+}
